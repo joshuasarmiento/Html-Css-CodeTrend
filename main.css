@@ -1,0 +1,20 @@
+body{
+	margin:0;
+	padding: 0;
+	background:rgb(0, 0, 0);
+}
+
+p {
+	font-size:12px;
+	line-height:10px;
+	text-align:justify;
+	/*Overrides the size of a background image.*/
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position: center;
+	background: url(image.jpg) no-repeat center;
+	background-attachment: fixed;
+	/*sets whether an element's background extends underneath its border box, padding box, or content box.*/
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(24, 24, 24, 0);
+}
